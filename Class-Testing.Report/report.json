@@ -27,12 +27,21 @@
       "name": "4646c37f3476b497773d",
       "visualContainers": [
         {
-          "config": "{\"name\":\"8b14fc17a23e1db3751e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":167.68558951965065,\"y\":350.9606986899563,\"width\":920.4075691411936,\"height\":299.97088791848614,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_centre_vw.country_name\",\"active\":true}],\"Size\":[{\"queryRef\":\"CountNonNull(dim_centre_vw.id_centre)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_centre_vw\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"country_name\"},\"Name\":\"dim_centre_vw.country_name\",\"NativeReferenceName\":\"country_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"id_centre\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_centre_vw.id_centre)\",\"NativeReferenceName\":\"Count of id_centre\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"8acc4cb34d9dedbdd561\",\"layouts\":[{\"id\":0,\"position\":{\"x\":745.1428571428571,\"y\":350.4761904761905,\"z\":1001,\"width\":489.14285714285717,\"height\":300.1904761904762}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_membership_type_vw.student_display\"},{\"queryRef\":\"CountNonNull(dim_membership_type_vw.student_display)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_membership_type_vw\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"student_display\"},\"Name\":\"dim_membership_type_vw.student_display\",\"NativeReferenceName\":\"student_display\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"student_display\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_membership_type_vw.student_display)\",\"NativeReferenceName\":\"Count of student_display\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 299.97,
-          "width": 920.41,
-          "x": 167.69,
-          "y": 350.96,
+          "height": 300.19,
+          "width": 489.14,
+          "x": 745.14,
+          "y": 350.48,
+          "z": 1001.00
+        },
+        {
+          "config": "{\"name\":\"8b14fc17a23e1db3751e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":168.29268292682926,\"y\":351.2195121951219,\"z\":1000,\"width\":417.0731707317073,\"height\":300}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_centre_vw.country_name\",\"active\":true}],\"Size\":[{\"queryRef\":\"CountNonNull(dim_centre_vw.id_centre)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_centre_vw\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"country_name\"},\"Name\":\"dim_centre_vw.country_name\",\"NativeReferenceName\":\"country_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"id_centre\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_centre_vw.id_centre)\",\"NativeReferenceName\":\"Count of id_centre\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 417.07,
+          "x": 168.29,
+          "y": 351.22,
           "z": 1000.00
         },
         {
